@@ -149,6 +149,15 @@ img {
 }
 
 /* CHAIRS */
+.chair {
+ /*box-shadow takes 4 or 5 params - first is horizontal offset between box and shadow
+ second is vertical offset
+ third is the blur of the shadow
+ 4th is scaling the shadow up (optional)
+ 5th is color of the shadow*/
+ box-shadow: 0 20px 30px 0 rgba(0, 0, 0, 0.07);
+}
+
 .chair-box {
  padding: 24px;
 }
